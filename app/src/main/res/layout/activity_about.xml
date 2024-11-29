@@ -55,7 +55,7 @@
                 android:text="Name: Amier Hakimie Bin Zakaria"
                 android:textColor="@android:color/black"
                 android:textSize="16sp"
-                android:textStyle="bold" /> <!-- Added spacing -->
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/groupTextView"
@@ -65,7 +65,7 @@
                 android:text="Group: RCDCS2405A"
                 android:textColor="@android:color/black"
                 android:textSize="16sp"
-                android:textStyle="bold" /> <!-- Added spacing -->
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/studentNumberTextView"
@@ -75,7 +75,7 @@
                 android:text="Student Number: 2022842594"
                 android:textColor="@android:color/black"
                 android:textSize="16sp"
-                android:textStyle="bold" /> <!-- Added spacing -->
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/programmeCodeTextView"
@@ -85,9 +85,28 @@
                 android:text="Programme Code: ICT602"
                 android:textColor="@android:color/black"
                 android:textSize="16sp"
-                android:textStyle="bold" /> <!-- Added spacing -->
+                android:textStyle="bold" />
 
-            <!-- Added spacing -->
+            <TextView
+                android:id="@+id/jobScopeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Job Scope: Developer"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/githubLinkTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="GitHub Repository: https://github.com/amierhakimie21/App"
+                android:textColor="#0000EE"
+                android:textSize="14sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -96,34 +115,12 @@
         android:id="@+id/copyrightTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
         android:text="© 2024 MCRX SDN BHD"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.948" />
-
-
-    <TextView
-        android:id="@+id/jobScopeTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Job Scope: Developer"
-        android:textColor="@android:color/black"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.42" />
-
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
